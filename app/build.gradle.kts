@@ -78,4 +78,18 @@ dependencies {
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
     ksp(libs.androidx.room.compiler)
+
+    // WalletConnect
+    implementation(libs.walletconnect.android.core)
+    implementation(libs.walletconnect.sign)
+
+    // ViewModel and LiveData
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+    implementation(libs.androidx.lifecycle.livedata.ktx)
+
+    // DataStore
+    implementation(libs.androidx.datastore.preferences)
+
+    // Image loading
+    implementation(libs.coil.compose)
 }
